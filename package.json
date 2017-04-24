@@ -1,12 +1,21 @@
 {
-  "name": "challenge-master",
+  "name": "challenger",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "work hard",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a 127.0.0.1 -p 4000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyam0074/challenger.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyam0074/challenger/issues"
+  },
+  "homepage": "https://github.com/priyam0074/challenger#readme"
 }
